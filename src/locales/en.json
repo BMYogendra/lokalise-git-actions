@@ -8,7 +8,7 @@
     "explore": "Explore Vite",
     "github": "GitHub",
     "learn": "Learn more",
-    "nested": {
+    "nested_updated": {
         "key": "This is a nested key",
         "another": "Another nested key"
     },
