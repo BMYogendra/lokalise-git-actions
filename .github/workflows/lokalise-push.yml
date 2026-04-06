@@ -30,6 +30,6 @@ jobs:
           additional_params: >
             {
               "tag_inserted_key": true,
-              "apply_tags_only_to_new_keys": true,
+              "tag_updated_keys": false,
               "tags": ["need-translation"]
             }

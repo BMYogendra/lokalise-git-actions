@@ -17,5 +17,6 @@
     "title": "Get started",
     "x": "X.com",
     "new_key": "This is a new key",
-    "test_new_key": "This is a test for the new key"
+    "test_new_key": "This is a test for the new key",
+    "one_more_key": "This is one more key"
 }
