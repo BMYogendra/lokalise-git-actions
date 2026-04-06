@@ -34,3 +34,9 @@ jobs:
           pr_body: "New translations"
           git_commit_message: "updates to lokalise-hub"
           pr_labels: lokalise
+
+          skip_include_tags: true
+          additional_params: >
+            {
+              "filter_data": ["reviewed"]
+            }
