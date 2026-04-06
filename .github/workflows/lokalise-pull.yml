@@ -5,6 +5,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build:
@@ -28,3 +29,8 @@ jobs:
           file_ext: json
           flat_naming: true
           always_pull_base: true
+
+          pr_title: "Translations from Lokalise"
+          pr_body: "New translations"
+          git_commit_message: "updates to lokalise-hub"
+          pr_labels: lokalise
