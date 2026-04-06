@@ -1,15 +1,15 @@
 {
-  "title": "Get started",
-  "description": "Edit <code>src/App.jsx</code> and save to test <code>HMR</code>",
-  "counter": "Count is {{count}}",
-  "documentation": "Documentation",
-  "docSubtitle": "Your questions, answered",
-  "explore": "Explore Vite",
-  "learn": "Learn more",
-  "social": "Connect with us",
-  "socialSubtitle": "Join the Vite community",
-  "github": "GitHub",
-  "discord": "Discord",
-  "x": "X.com",
-  "bluesky": "Bluesky"
+    "bluesky": "Bluesky",
+    "counter": "Count is %1$s",
+    "description": "Edit <code>src\/App.jsx<\/code> and save to test <code>HMR<\/code>",
+    "discord": "Discord",
+    "docSubtitle": "Your questions, answered",
+    "documentation": "Documentation",
+    "explore": "Explore Vite",
+    "github": "GitHub",
+    "learn": "Learn more",
+    "social": "Connect with us",
+    "socialSubtitle": "Join the Vite community",
+    "title": "Get started",
+    "x": "X.com"
 }
