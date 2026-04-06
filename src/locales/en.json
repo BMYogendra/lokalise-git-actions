@@ -22,5 +22,7 @@
     },
     "nested_tagging": {
         "keyooo": "This is a nested keyoooo"
-    }
+    },
+    "king": "King",
+    "queen": "Queen"
 }
