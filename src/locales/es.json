@@ -1,0 +1,15 @@
+{
+  "title": "Comenzar",
+  "description": "Edita <code>src/App.jsx</code> y guarda para probar <code>HMR</code>",
+  "counter": "Contador: {{count}}",
+  "documentation": "Documentación",
+  "docSubtitle": "Tus preguntas, respondidas",
+  "explore": "Explorar Vite",
+  "learn": "Aprender más",
+  "social": "Conéctate con nosotros",
+  "socialSubtitle": "Únete a la comunidad de Vite",
+  "github": "GitHub",
+  "discord": "Discord",
+  "x": "X.com",
+  "bluesky": "Bluesky"
+}
