@@ -27,8 +27,9 @@ jobs:
           file_format: json
           file_ext: json
           flat_naming: true
+          skip_tagging: true
           additional_params: >
             {
               "tag_inserted_key": true,
-              "tags": ["need-translation-new"]
+              "tags": ["test_custom_tags"]
             }
