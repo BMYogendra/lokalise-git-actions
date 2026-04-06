@@ -19,5 +19,8 @@
     "test_key": "This is a test key",
     "nested_tag_test": {
         "key": "This is a nested key"
+    },
+    "nested_tagging": {
+        "keyooo": "This is a nested keyoooo"
     }
 }
