@@ -1,41 +1,30 @@
-name: Lokalise Pull
+name: Pull changed translations from Lokalise
 
 on:
-  schedule:
-    # Run daily at 2 AM UTC to pull updated translations
-    - cron: '0 2 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  pull-from-lokalise:
+  build:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout code
+      - name: Checkout Repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Pull translations from Lokalise
-        uses: XerxesNoble/lokalise-action@main
+      - name: Pull from Lokalise
+        uses: lokalise/lokalise-pull-action@v4.0.0
         with:
-          lokalise_token: ${{ secrets.LOKALISE_TOKEN }}
-          lokalise_project_id: ${{ secrets.LOKALISE_PROJECT_ID }}
-          command: 'pull'
-          file_format: 'json'
-          dest: 'src/locales/'
-          include_tags: 'published'
-          replace_modified_on_export: false
-
-      - name: Create Pull Request with translations
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: 'chore: update translations from Lokalise'
-          title: '[Lokalise] Update translations'
-          body: |
-            Automated pull request from Lokalise with updated translations
-            
-            - Updated language files from Lokalise
-            - Please review and merge when ready
-          branch: lokalise/update-translations
-          delete-branch: true
+          api_token: 1f7d91b487831c7264c6643be0cb8d40162efea7
+          project_id: 3939761469d33783c0acc1.91645315
+          base_lang: en
+          translations_path: |
+            src/locales
+          file_format: json
+          file_ext: json
+          flat_naming: true
+          always_pull_base: true
