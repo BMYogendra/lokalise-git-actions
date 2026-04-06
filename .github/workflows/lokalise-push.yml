@@ -27,3 +27,8 @@ jobs:
           file_format: json
           file_ext: json
           flat_naming: true
+          additional_params: >
+            {
+              "tag_inserted_key": true,
+              "tags": ["custom", "another_tag"]
+            }

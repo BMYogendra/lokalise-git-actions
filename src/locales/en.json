@@ -11,5 +11,8 @@
     "social": "Connect with us",
     "socialSubtitle": "Join the Vite community",
     "title": "Get started",
-    "x": "X.com"
+    "x": "X.com",
+    "nested": {
+        "key": "This is a nested key"
+    }
 }
