@@ -16,5 +16,6 @@
     "socialSubtitle": "Join the Vite community",
     "title": "Get started",
     "x": "X.com",
-    "new_key": "This is a new key"
+    "new_key": "This is a new key",
+    "test_new_key": "This is a test for the new key"
 }
