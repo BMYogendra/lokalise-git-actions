@@ -1,18 +1,24 @@
 {
-    "bluesky": "",
-    "counter": "",
+    "title": "",
     "description": "",
-    "discord": "",
-    "docSubtitle": "",
+    "counter": "",
     "documentation": "",
+    "docSubtitle": "",
     "explore": "",
-    "github": "",
     "learn": "",
-    "nested": {
-        "key": ""
-    },
     "social": "",
     "socialSubtitle": "",
-    "title": "",
-    "x": ""
+    "github": "",
+    "discord": "",
+    "x": "",
+    "bluesky": "",
+    "nested": {
+        "key": "",
+        "another": ""
+    },
+    "nested_updated": {
+        "key": "",
+        "another": ""
+    },
+    "new_key": ""
 }

@@ -1,18 +1,24 @@
 {
-    "bluesky": "Bluesky Spanish",
-    "counter": "",
+    "title": "",
     "description": "",
-    "discord": "",
-    "docSubtitle": "",
+    "counter": "",
     "documentation": "",
+    "docSubtitle": "",
     "explore": "",
-    "github": "",
     "learn": "",
-    "nested": {
-        "key": "Spanish Nested Key"
-    },
     "social": "",
     "socialSubtitle": "",
-    "title": "",
-    "x": ""
+    "github": "",
+    "discord": "",
+    "x": "",
+    "bluesky": "Bluesky Spanish",
+    "nested": {
+        "key": "Spanish Nested Key",
+        "another": "Spanish Anidada Key Updated"
+    },
+    "nested_updated": {
+        "key": "",
+        "another": ""
+    },
+    "new_key": ""
 }
