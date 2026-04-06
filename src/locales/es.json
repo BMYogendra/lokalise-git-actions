@@ -8,6 +8,9 @@
     "explore": "",
     "github": "",
     "learn": "",
+    "nested": {
+        "key": "Spanish Nested Key"
+    },
     "social": "",
     "socialSubtitle": "",
     "title": "",
