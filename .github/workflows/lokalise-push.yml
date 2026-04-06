@@ -31,5 +31,5 @@ jobs:
           additional_params: >
             {
               "tag_inserted_key": true,
-              "tags": ["test_custom_tags"]
+              "tags": ["test_custom_tags_v2"]
             }
