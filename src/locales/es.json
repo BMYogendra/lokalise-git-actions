@@ -7,13 +7,28 @@
     "documentation": "",
     "explore": "",
     "github": "",
+    "hosa_raaaja": "",
+    "king": "",
     "learn": "",
     "nested": {
         "another": "Spanish Anidada Key Updated",
         "key": "Spanish Nested Key"
     },
+    "nested_tag_test": {
+        "key": ""
+    },
+    "nested_tagging": {
+        "keyooo": ""
+    },
+    "nested_updated": {
+        "another": "",
+        "key": ""
+    },
+    "queen": "",
     "social": "",
     "socialSubtitle": "",
+    "test_key": "",
     "title": "",
+    "welcome_message": "Welcome {{name}}, you have {{count}}new SPanish Messgae!",
     "x": ""
 }
