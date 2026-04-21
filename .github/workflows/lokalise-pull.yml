@@ -39,5 +39,5 @@ jobs:
           additional_params: >
             {
               "placeholder_format": "i18n",
-              "identation": "3sp"
+              "identation": "1sp"
             }
