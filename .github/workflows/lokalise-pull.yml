@@ -39,5 +39,5 @@ jobs:
           additional_params: >
             {
               "filter_data": ["reviewed"],
-              "convert_placeholders": false
+              "placeholder_format": "i18n"
             }
