@@ -38,5 +38,6 @@ jobs:
           skip_include_tags: true
           additional_params: >
             {
-              "filter_data": ["reviewed"]
+              "filter_data": ["reviewed"],
+              "convert_placeholders": false
             }
