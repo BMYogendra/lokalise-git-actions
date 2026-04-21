@@ -1,30 +1,34 @@
 {
     "bluesky": "Bluesky",
-    "counter": "Count is %1$s",
+    "counter": "Count is {{0}}",
     "description": "Edit <code>src\/App.jsx<\/code> and save to test <code>HMR<\/code>",
     "discord": "Discord",
     "docSubtitle": "Your questions, answered",
     "documentation": "Documentation",
     "explore": "Explore Vite",
     "github": "GitHub",
+    "hosa_raaaja": "Hosa Raaja",
+    "king": "King",
     "learn": "Learn more",
     "nested": {
         "another": "Another nested key",
         "key": "This is a nested key"
     },
-    "social": "Connect with us",
-    "socialSubtitle": "Join the Vite community",
-    "title": "Get started",
-    "x": "X.com",
-    "test_key": "This is a test key",
     "nested_tag_test": {
         "key": "This is a nested key"
     },
     "nested_tagging": {
         "keyooo": "This is a nested keyoooo"
     },
-    "king": "King",
+    "nested_updated": {
+        "another": "Another nested key",
+        "key": "This is a nested key"
+    },
     "queen": "Queen",
-    "hosa_raaaja": "Hosa Raaja",
-    "welcome_message": "Welcome {{name}}, you have {{count}} new messages!"
+    "social": "Connect with us",
+    "socialSubtitle": "Join the Vite community",
+    "test_key": "This is a test key",
+    "title": "Get started",
+    "welcome_message": "Welcome {{name}}, you have {{count}} new messages!",
+    "x": "X.com"
 }
