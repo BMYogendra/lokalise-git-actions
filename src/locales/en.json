@@ -25,5 +25,6 @@
     },
     "king": "King",
     "queen": "Queen",
-    "hosa_raaaja": "Hosa Raaja"
+    "hosa_raaaja": "Hosa Raaja",
+    "welcome_message": "Welcome {{name}}, you have {{count}} new messages!"
 }

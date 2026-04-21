@@ -28,6 +28,7 @@ function App() {
               Español
             </button>
             {t('counter', { count })}
+            <p>{t('welcome_message', { name: 'User', count: 5 })}</p>
           </div>
           <button
             className="counter"
