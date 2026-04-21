@@ -38,6 +38,6 @@ jobs:
           skip_include_tags: true
           additional_params: >
             {
-              "filter_data": ["reviewed"],
-              "placeholder_format": "i18n"
+              "placeholder_format": "i18n",
+              "identation": "3sp"
             }
