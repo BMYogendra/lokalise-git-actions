@@ -24,10 +24,11 @@ jobs:
           project_id: 3939761469d33783c0acc1.91645315
           base_lang: en
           translations_path: |
-            src/locales
+            src/locales/en.json
+            src/locales/es.json
           file_format: json
           file_ext: json
-          flat_naming: true
+          #flat_naming: true
           always_pull_base: true
 
           pr_title: "Translations from Lokalise"
